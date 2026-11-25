@@ -221,3 +221,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CamperSpot API - Environment and secrets
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Frontend - Node.js and React
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# IDE and editors
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Database backups and local data
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
+postgres-data/
+
+# Imported datasets
+/data/raw/
+/data/processed/
+
+# Temporary files
+tmp/
+temp/
